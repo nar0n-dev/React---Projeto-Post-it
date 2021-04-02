@@ -1,0 +1,12 @@
+.button-load{
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.button-load:disabled{
+    opacity: 0.7;
+    cursor: initial;
+}

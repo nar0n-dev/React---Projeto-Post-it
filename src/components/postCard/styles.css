@@ -1,0 +1,26 @@
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 15px;
+  }
+  
+  .post{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 1rem;
+    transition: transform 100ms ease-in-out;
+  }
+  
+  .post:hover{
+    transform: scale(0.92)
+  }
+  
+  .post-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .post-thumbnail{
+    max-width: 100%;
+  }
